@@ -1,0 +1,18 @@
+# Exercise 6 Page 84
+Important: Website: https://docs.python.org/3.5/library/stdtypes.html#string-methods
+This is not a python file.
+Some methods of string
+1. find
+example :
+word = 'Changhao will go to MIT. He also gets the offer of UC Berkeley and Stanford University.'
+word.find('U',(10,30)) #'U' is what I want to find. 10 is the start position, and the 30 is the end position.
+2. replace
+example:
+word.replace('C','D')
+word.replace('C','D',20) # C is the old word, and D is the new word. 20 is the count.
+3. strip
+defination:Return a copy of the string with the leading and trailing \
+characters removed. The chars argument is a string specifying the \
+set of characters to be removed. If omitted or None, the chars \
+argument defaults to removing whitespace. The chars argument is not\
+a prefix or suffix; rather, all combinations of its values are stripped:
