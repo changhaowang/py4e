@@ -2,7 +2,7 @@
 import string
 inp = input("Please enter the filename:")
 if inp == '':
-    inp = 'romeo_punctuation.txt'
+    inp = 'romeo-full.txt'
 try:
     fhand = open(inp)
 except:
