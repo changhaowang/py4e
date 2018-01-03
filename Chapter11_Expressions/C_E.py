@@ -1,4 +1,5 @@
 #S_E Chapter 11 Page 142
+# Greedy and non-greedy ?
 import re
 inp = input("Please enter the filename: ")
 if len(inp) < 1:

@@ -1,9 +1,11 @@
 #Extract data Chapter 11 Page 139
 import re
-s = 'A message from csev@umich.edu to cwen@inpui.edu about meeting @2PM'
-lst = re.findall("\S+@\S*",s)
-print(type(lst))
-print(lst)
+s = 'A message from csevA@umich.edu to cwen@inpui.edu about meeting @2PM'
+lst_greedy = re.findall("\S+@\S*",s) #?RETURNS THE SHORTEST ONE
+print(type(lst_greedy))
+print("Greedy",lst_greedy)
+lst = re.findall("\S+@\S+?",s)
+print("Non-greedy",lst)
 
 inp = input("Please enter the filename: ")
 if len(inp) < 1:
